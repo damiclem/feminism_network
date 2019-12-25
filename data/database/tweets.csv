@@ -1,112 +1,56 @@
-,created_at,id_str,full_text,text,truncated,entities,geo,coordinates,place,retweet_count,favourite_count,in_reply_to_status_id_str,in_reply_to_user_id_str,lang
-0,Tue Dec 24 21:18:47 +0000 2019,1209584228578529285,Why Does BJP Government Fear Akhil Gogoi? https://t.co/GSZ45Lc6k4 https://t.co/bciZdbjLlg,Why Does BJP Government Fear Akhil Gogoi? https://t.co/GSZ45Lc6k4 https://t.co/bciZdbjLlg,False,[],,,,2,,,,en
-1,Tue Dec 24 18:45:10 +0000 2019,1209545568990769152,What Is Section 144 And Why We Should Still Resist Against CAA https://t.co/De9RnuwjSM https://t.co/Dw3P5qT6rA,What Is Section 144 And Why We Should Still Resist Against CAA https://t.co/De9RnuwjSM https://t.co/Dw3P5qT6rA,False,[],,,,0,,,,en
-2,Tue Dec 24 18:40:56 +0000 2019,1209544503649955840,14 Queer Moments That Made 2019 Memorable https://t.co/N59JIhB4Mc https://t.co/g1grTlwBEl,14 Queer Moments That Made 2019 Memorable https://t.co/N59JIhB4Mc https://t.co/g1grTlwBEl,False,[],,,,2,,,,en
-3,Tue Dec 24 18:35:28 +0000 2019,1209543127738003460,Interview With Bindumadhav Khire On Media’s Coverage Of LGBTQ+ Issues | #GBVInMedia https://t.co/anlztcqCeW https://t.co/rX6pcanCph,Interview With Bindumadhav Khire On Media’s Coverage Of LGBTQ+ Issues | #GBVInMedia https://t.co/anlztcqCeW https://t.co/rX6pcanCph,False,['GBVInMedia'],,,,0,,,,en
-4,Tue Dec 24 17:30:00 +0000 2019,1209526652159565825,"When we think of the minority groups who may be affected by the #NRC and #CAA , we often forget to recognise their impact on #Adivasis. 
+,created_at,id_str,text,truncated,geo,coordinates,place,retweet_count,favourite_count,in_reply_to_status_id_str,in_reply_to_user_id_str,lang
+0,Wed Dec 25 09:13:48 +0000 2019,1209764168741474304,"When Santa hits you with that bestseller everyone's been recommending that you read. 💯
+
+(Comic by @Srishtinot.) https://t.co/TK0B4SfdRe",False,,,,2,,,,en
+1,Wed Dec 25 09:00:01 +0000 2019,1209760698558865410,"देश के इस अराजक माहौल में, इस अघोषित आपातकाल में, हम उत्तेजित हैं, क्रोधित हैं, दुखी हैं। ऐसी और भी कई ढेर सारी भावनाओं ने हमारे भीतर एक कौतुहल मचा दिया है।
+
+#CAAProtest #MentalHealth 
+
+https://t.co/uo6EdwmM9C",False,,,,0,,,,hi
+2,Wed Dec 25 08:30:00 +0000 2019,1209753143518433281,"Why is the #media quiet about #sexualviolence against members of the #LGBTQIA community? @MAARnews tells us about current media coverage of these incidents. 
+
+https://t.co/anlztcId6u",False,,,,1,,,,en
+3,Wed Dec 25 07:30:00 +0000 2019,1209738044246351873,"The future is #queer , and so was this year!
+
+@Astha25646794 highlights our favourite queer moments from 2019.
+
+https://t.co/N59JIhB4Mc",False,,,,2,,,,en
+4,Wed Dec 25 06:30:00 +0000 2019,1209722944559042562,"#Manusmriti was unjust towards “Untouchables” as well as women across castes. This #ManusmritiDahanDiwas , we need to remind ourselves to reject and condemn this oppressive text. 
+
+https://t.co/gApx0jL0XD",False,,,,5,,,,en
+5,Wed Dec 25 04:30:00 +0000 2019,1209692745813483520,""" #Section144 is a piece of colonial-era legislation that was primarily used by the British to curb dissent, quite similar to how it is used by the #IndianGovernment today."" - @HamsadhwaniA 
+
+#IndiaRejectsCAA_NRC #CAAProtest 
+
+https://t.co/De9RnuNUKk",False,,,,5,,,,en
+6,Wed Dec 25 03:30:00 +0000 2019,1209677646247784448,"""On 12th December, #AkhilGogoi , #RTI activist and President of Krishak Mukti Sangram Samiti (KMSS) , was detained by the #AssamPolice ."" - @madulithaosen
+
+#IndiaRejectsCAA #IndiaRejectsNRC 
+
+https://t.co/GSZ45LtHbC",False,,,,1,,,,en
+7,Tue Dec 24 21:18:47 +0000 2019,1209584228578529285,Why Does BJP Government Fear Akhil Gogoi? https://t.co/GSZ45Lc6k4 https://t.co/bciZdbjLlg,False,,,,6,,,,en
+8,Tue Dec 24 18:45:10 +0000 2019,1209545568990769152,What Is Section 144 And Why We Should Still Resist Against CAA https://t.co/De9RnuwjSM https://t.co/Dw3P5qT6rA,False,,,,0,,,,en
+9,Tue Dec 24 18:40:56 +0000 2019,1209544503649955840,14 Queer Moments That Made 2019 Memorable https://t.co/N59JIhB4Mc https://t.co/g1grTlwBEl,False,,,,4,,,,en
+10,Tue Dec 24 18:35:28 +0000 2019,1209543127738003460,Interview With Bindumadhav Khire On Media’s Coverage Of LGBTQ+ Issues | #GBVInMedia https://t.co/anlztcqCeW https://t.co/rX6pcanCph,False,,,,0,,,,en
+11,Tue Dec 24 17:30:00 +0000 2019,1209526652159565825,"When we think of the minority groups who may be affected by the #NRC and #CAA , we often forget to recognise their impact on #Adivasis. 
 
 @AdivasisMatter reminds us how dire these consequences are for them. 
 
-https://t.co/v4tMzeNO8q","When we think of the minority groups who may be affected by the #NRC and #CAA , we often forget to recognise their impact on #Adivasis. 
-
-@AdivasisMatter reminds us how dire these consequences are for them. 
-
-https://t.co/v4tMzeNO8q",False,"['NRC', 'CAA', 'Adivasis']",,,,14,,,,en
-5,Tue Dec 24 17:00:00 +0000 2019,1209519104383602688,"सदफ़ के परिवार वालों का आरोप है कि पुलिस ने उनकी लाठियों से पिटाई की। 
+https://t.co/v4tMzeNO8q",False,,,,19,,,,en
+12,Tue Dec 24 17:00:00 +0000 2019,1209519104383602688,"सदफ़ के परिवार वालों का आरोप है कि पुलिस ने उनकी लाठियों से पिटाई की। 
 
 #IndiaRejectsCAA #PoliceStopViolence #IndiaRejectsNRC #SadafJafar
 
-https://t.co/P6NUl0O6Ng","सदफ़ के परिवार वालों का आरोप है कि पुलिस ने उनकी लाठियों से पिटाई की। 
-
-#IndiaRejectsCAA #PoliceStopViolence #IndiaRejectsNRC #SadafJafar
-
-https://t.co/P6NUl0O6Ng",False,"['IndiaRejectsCAA', 'PoliceStopViolence', 'IndiaRejectsNRC', 'SadafJafar']",,,,0,,,,hi
-6,Tue Dec 24 16:30:00 +0000 2019,1209511552136679425,"""On 22nd December, PM #NarendraModi addressed a rally at Delhi’s Ramlila Maidan, and ‘clarified’ (read: contradicted) his views on the ongoing protests on the #CAA ."" - @Suchitrawrites
+https://t.co/P6NUl0O6Ng",False,,,,0,,,,hi
+13,Tue Dec 24 16:30:00 +0000 2019,1209511552136679425,"""On 22nd December, PM #NarendraModi addressed a rally at Delhi’s Ramlila Maidan, and ‘clarified’ (read: contradicted) his views on the ongoing protests on the #CAA ."" - @Suchitrawrites
 
 #IndiaRejectsCAA #IndiaRejectsNRC #MeraPMJhoothaHai 
 
-https://t.co/FdGYQur8R3","""On 22nd December, PM #NarendraModi addressed a rally at Delhi’s Ramlila Maidan, and ‘clarified’ (read: contradicted) his views on the ongoing protests on the #CAA ."" - @Suchitrawrites
-
-#IndiaRejectsCAA #IndiaRejectsNRC #MeraPMJhoothaHai 
-
-https://t.co/FdGYQur8R3",False,"['NarendraModi', 'CAA', 'IndiaRejectsCAA', 'IndiaRejectsNRC', 'MeraPMJhoothaHai']",,,,1,,,,en
-7,Tue Dec 24 15:30:00 +0000 2019,1209496452797534213,"""Women can't play sports.""
+https://t.co/FdGYQur8R3",False,,,,1,,,,en
+14,Tue Dec 24 15:30:00 +0000 2019,1209496452797534213,"""Women can't play sports.""
 
 OK. 👍👍👍👍👍
 
 #WomenInSports
 
-https://t.co/FtAEDjUvdJ","""Women can't play sports.""
-
-OK. 👍👍👍👍👍
-
-#WomenInSports
-
-https://t.co/FtAEDjUvdJ",False,['WomenInSports'],,,,1,,,,en
-8,Tue Dec 24 14:30:00 +0000 2019,1209481354095677440,"The picture of a girl handing a rose to the #DelhiPolice has gone viral and people have many thoughts on the same.
-
-What are yours?
-
-#delhipolicegundagardi #CAAProtests
-
-https://t.co/Uq0GxUDiv5","The picture of a girl handing a rose to the #DelhiPolice has gone viral and people have many thoughts on the same.
-
-What are yours?
-
-#delhipolicegundagardi #CAAProtests
-
-https://t.co/Uq0GxUDiv5",False,"['DelhiPolice', 'delhipolicegundagardi', 'CAAProtests']",,,,0,,,,en
-9,Tue Dec 24 13:30:00 +0000 2019,1209466254316036098,"People across the world organised international #protests to express solidarity against the #CitizenshipAmendmentAct and #policebrutality against students. 
-
-#IndiaAgainstCAA_NRC 
-
-https://t.co/Ee76ZLbufI","People across the world organised international #protests to express solidarity against the #CitizenshipAmendmentAct and #policebrutality against students. 
-
-#IndiaAgainstCAA_NRC 
-
-https://t.co/Ee76ZLbufI",False,"['protests', 'CitizenshipAmendmentAct', 'policebrutality', 'IndiaAgainstCAA_NRC']",,,,1,,,,en
-10,Tue Dec 24 13:00:00 +0000 2019,1209458705097359362,"""बीते 19 दिसम्बर 2019 को दिल्ली सहित उत्तर प्रदेश, बिहार और देशभर के कई अन्य स्थानों पर लोग नागरिकता संशोधन कानून के खिलाफ़ विरोध प्रदर्शन करने सड़कों पर उतरें।"" - @Srishtinot
-
-#IndiaRejectsNRC #IndiaRejectsCAA 
-
-https://t.co/RBUAklBub0","""बीते 19 दिसम्बर 2019 को दिल्ली सहित उत्तर प्रदेश, बिहार और देशभर के कई अन्य स्थानों पर लोग नागरिकता संशोधन कानून के खिलाफ़ विरोध प्रदर्शन करने सड़कों पर उतरें।"" - @Srishtinot
-
-#IndiaRejectsNRC #IndiaRejectsCAA 
-
-https://t.co/RBUAklBub0",False,"['IndiaRejectsNRC', 'IndiaRejectsCAA']",,,,0,,,,hi
-11,Tue Dec 24 11:30:00 +0000 2019,1209436055113355266,"I can unequivocally say that, despite being born a #Hindu , I love my #Muslim brothers and sisters. I doubt many #CAA and #NRC supporters can say these exact same words without flinching.
-
-#IndiaRejectsNRC #IndiaRejectsCAA 
-
-https://t.co/xNGoSJDUaH","I can unequivocally say that, despite being born a #Hindu , I love my #Muslim brothers and sisters. I doubt many #CAA and #NRC supporters can say these exact same words without flinching.
-
-#IndiaRejectsNRC #IndiaRejectsCAA 
-
-https://t.co/xNGoSJDUaH",False,"['Hindu', 'Muslim', 'CAA', 'NRC', 'IndiaRejectsNRC', 'IndiaRejectsCAA']",,,,8,,,,en
-12,Tue Dec 24 11:00:00 +0000 2019,1209428504602927109,"The government feeds on the patriarchal ideology by glorifying #motherhood and hence it is ironic that the Union #HealthMinistry is led by a man. 
-
-#MaternalHealth #MaternalMortality
-
-https://t.co/lJOxLDnDRl","The government feeds on the patriarchal ideology by glorifying #motherhood and hence it is ironic that the Union #HealthMinistry is led by a man. 
-
-#MaternalHealth #MaternalMortality
-
-https://t.co/lJOxLDnDRl",False,"['motherhood', 'HealthMinistry', 'MaternalHealth', 'MaternalMortality']",,,,0,,,,en
-13,Tue Dec 24 09:30:00 +0000 2019,1209405855097131008,"""India witnessed the state-imposed #internetshutdown strategy more than 95 times in 2019, and hence, this needs to be addressed."" - @The_Silly_Wonka 
-
-#IndiaRejectsCAA #IndiaRejectsNRC 
-
-https://t.co/NmklE2RBCc","""India witnessed the state-imposed #internetshutdown strategy more than 95 times in 2019, and hence, this needs to be addressed."" - @The_Silly_Wonka 
-
-#IndiaRejectsCAA #IndiaRejectsNRC 
-
-https://t.co/NmklE2RBCc",False,"['internetshutdown', 'IndiaRejectsCAA', 'IndiaRejectsNRC']",,,,10,,,,en
-14,Tue Dec 24 09:00:00 +0000 2019,1209398305869856768,"बीते गुरुवार नागरिकता कानून के विरोध में 19 दिसंबर को हुई हिंसा के मामले में लखनऊ के हजरतगंज पुलिस थाने में कुल 34 लोगों के नाम एफआईआर दर्ज़ की गयी,  इसमें सदफ़ जफर भी शामिल थी। 
-
-#lucknowprotest #IndiaRejectsCAA #IndiaRejectsNRC #SadafJafar 
-
-https://t.co/P6NUl0O6Ng","बीते गुरुवार नागरिकता कानून के विरोध में 19 दिसंबर को हुई हिंसा के मामले में लखनऊ के हजरतगंज पुलिस थाने में कुल 34 लोगों के नाम एफआईआर दर्ज़ की गयी,  इसमें सदफ़ जफर भी शामिल थी। 
-
-#lucknowprotest #IndiaRejectsCAA #IndiaRejectsNRC #SadafJafar 
-
-https://t.co/P6NUl0O6Ng",False,"['lucknowprotest', 'IndiaRejectsCAA', 'IndiaRejectsNRC', 'SadafJafar']",,,,1,,,,hi
+https://t.co/FtAEDjUvdJ",False,,,,1,,,,en
