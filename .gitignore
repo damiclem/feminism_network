@@ -105,3 +105,6 @@ venv.bak/
 
 # Exclude credentials
 auth.json
+
+# Exclude external software folder
+resources/
