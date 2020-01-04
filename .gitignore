@@ -108,3 +108,6 @@ auth.json
 
 # Exclude external software folder
 resources/
+
+# Exclude html files from data
+data/*.html
