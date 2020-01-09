@@ -1,6 +1,9 @@
 contractions_dict = {     
 "ain't": "am not",
 "aren't": "are not",
+"don't": "do not",
+"didn't": "did not",
+"doesn't":"does not",
 "can't": "cannot",
 "can't've": "cannot have",
 "'cause": "because",
