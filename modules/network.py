@@ -3,15 +3,27 @@ import numpy as np
 import pandas as pd
 import networkx as nx
 
+
+# Define function for getting word map to integer
+def map_words(words):
+    # Get unique lemmas
+    unique_words = words.groupby(by=['text', 'pos']).size().reset_index(name='counts')
+    unique_words.sort_values(by='counts', ascending=False, inplace=True)
+    # Map each unique lemma to a number and vice versa
+    w2i, i2w = dict(), dict()
+    for index, word in unique_words.iterrows():
+        w2i.setdefault((word.text, word.pos), index)
+        i2w.setdefault(index, (word.text, word.pos))
+    # Return dictionaries
+    return w2i, i2w
+
 # Define function for creating edges dataset
 def get_edges(words):
     """
     Input:
-    - Dataset containing words (tweet, index, text, pos)
+    - words dataset containing words (nodes)
     Output
-    - edges: word edges DataFrame (text_x, pos_x, text_y, pos_y, counts) 
-    - w2i: dictionary mapping word (text, pos) to number
-    - i2w: dictionary mapping number to word (text, pos)
+    - edges: word edges DataFrame (node_x, node_y, counts)
     """
     
     # Make join to obtain words in the same tweet
@@ -19,45 +31,34 @@ def get_edges(words):
     edges = edges[edges.index_x != edges.index_y]  # Remove self join
 
     # Count how many times the same word matches have been found
-    edges = edges.groupby(['text_x', 'pos_x', 'text_y', 'pos_y']).size()
+    edges = edges.groupby(['node_x', 'node_y']).size()
     edges = edges.reset_index(name='counts')
 
-    # Get unique word (text, POS) set
-    unique_words = words.groupby(by=['text', 'pos']).size().reset_index(name='counts')
-    # Map each unique concept to a number and vice versa 
-    w2i, i2w = dict(), dict()
-    for index, word in unique_words.iterrows():
-        w2i[(word.text, word.pos)] = index
-        i2w[index] = (word.text, word.pos)
-    # Map each word to a numeric index
-    edges['number_x'] = edges.apply(lambda e: w2i[(e.text_x, e.pos_x)], axis=1)
-    edges['number_y'] = edges.apply(lambda e: w2i[(e.text_y, e.pos_y)], axis=1)
+    # Return edges dataset
+    return edges
 
-    # Return dataset
+# Define function for saving edges to disk
+def save_edges(edges_path, vocab_path, edges, w2i, i2w):
+    # Save edges Pandas Dataframe object as csv
+    edges.to_csv(edges_path, index=False)
+    # Save edges vocabulary as numpy object
+    np.save(file=vocab_path, arr={
+        'w2i': w2i,
+        'i2w': i2w
+    })
+
+
+# Define function for loading edges from disk
+def load_edges(edges_path, vocab_path):
+    # Load Pandas DataFrame object from disk
+    edges = pd.read_csv(edges_path)
+    # Load vocabularies
+    vocab = np.load(vocab_path, allow_pickle=True).item()
+    w2i = vocab['w2i']
+    i2w = vocab['i2w']
+    # Return either edges and vocabularies
     return edges, w2i, i2w
 
-
-# Define function for creating adjacency matrix
-def get_adjacency(edges, n, triangular=False):
-    """
-    Input:
-    - edges: DataFrame object containing edges between word nodes
-    - n: the number of edges available
-    - triangular: determines if the adjacency matrix should be made (upper) triangular
-    Output:
-    - X: numpy adjacency matrix 
-    """
-    
-    # Initialize adjacency matrix
-    X = np.zeros(shape=(n, n), dtype=np.int)
-    
-    # Loop through each edge to fill adjacency matrix
-    for i, edge in edges.iterrows():
-        # Handle trianguarization
-        if triangular and edge.number_y > edge.number_x:
-            continue
-        # Fill each cell with counts
-        X[edge.number_y][edge.number_x] = edge.counts
-            
-    # Return filled adjacency matrix
-    return X
+# Define function to retrieving degree as Pandas Series object
+def get_degree(network):
+    return pd.Series({node: degree for node, degree in nx.degree(network, weight='counts')})
