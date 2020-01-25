@@ -32,33 +32,11 @@ def get_edges(words):
 
     # Count how many times the same word matches have been found
     edges = edges.groupby(['node_x', 'node_y']).size()
-    edges = edges.reset_index(name='counts')
+    edges = edges.reset_index(name='weight')
 
     # Return edges dataset
     return edges
 
-# Define function for saving edges to disk
-def save_edges(edges_path, vocab_path, edges, w2i, i2w):
-    # Save edges Pandas Dataframe object as csv
-    edges.to_csv(edges_path, index=False)
-    # Save edges vocabulary as numpy object
-    np.save(file=vocab_path, arr={
-        'w2i': w2i,
-        'i2w': i2w
-    })
-
-
-# Define function for loading edges from disk
-def load_edges(edges_path, vocab_path):
-    # Load Pandas DataFrame object from disk
-    edges = pd.read_csv(edges_path)
-    # Load vocabularies
-    vocab = np.load(vocab_path, allow_pickle=True).item()
-    w2i = vocab['w2i']
-    i2w = vocab['i2w']
-    # Return either edges and vocabularies
-    return edges, w2i, i2w
-
 # Define function to retrieving degree as Pandas Series object
 def get_degree(network):
-    return pd.Series({node: degree for node, degree in nx.degree(network, weight='counts')})
+    return pd.Series({node: degree for node, degree in nx.degree(network, weight='weight')})
